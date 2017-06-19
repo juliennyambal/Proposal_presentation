@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{wits}
 A.~Bhana, ``Hunting for parking brings no joy for students,'' {\em Wits
@@ -24,6 +24,28 @@ S.~Lee, D.~Yoon, and A.~Ghosh, ``Intelligent parking lot application using
 C.~G. del Postigo, J.~Torres, and J.~M. Menéndez, ``Vacant parking area
   estimation through background subtraction and transience map analysis,'' {\em
   IET Intelligent Transport Systems}, vol.~9, no.~9, pp.~835--841, 2015.
+
+\bibitem{Choeychuen}
+K.~Choeychuen, ``Automatic parking lot mapping for available parking space
+  detection,'' in {\em 2013 5th International Conference on Knowledge and Smart
+  Technology (KST)}, pp.~117--121, Jan 2013.
+
+\bibitem{wu}
+Q.~Wu, C.~Huang, S.~y.~Wang, W.~c.~Chiu, and T.~Chen, ``Robust parking space
+  detection considering inter-space correlation,'' in {\em 2007 IEEE
+  International Conference on Multimedia and Expo}, pp.~659--662, July 2007.
+
+\bibitem{Tschentscher}
+M.~Tschentscher, C.~Koch, M.~König, J.~Salmen, and M.~Schlipsing, ``Scalable
+  real-time parking lot classification: An evaluation of image features and
+  supervised learning algorithms,'' in {\em 2015 International Joint Conference
+  on Neural Networks (IJCNN)}, pp.~1--8, July 2015.
+
+\bibitem{deAlmeida}
+P.~R. de~Almeida, L.~S. Oliveira, A.~S.~B. Jr., E.~J.~S. Jr., and A.~L.
+  Koerich, ``\{PKLot\} – a robust dataset for parking lot classification,''
+  {\em Expert Systems with Applications}, vol.~42, no.~11, pp.~4937 -- 4949,
+  2015.
 
 \bibitem{Lecun98gradient-basedlearning}
 Y.~Lecun, L.~Bottou, Y.~Bengio, and P.~Haffner, ``Gradient-based learning

@@ -75,6 +75,7 @@
 
 %\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
 }
+\usepackage{amsmath}
 \usepackage{caption}% http://ctan.org/pkg/caption
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
@@ -226,10 +227,18 @@ Cons:
 \frametitle{Background Subtraction}
 \begin{block}{Definition}
 The background subtraction is a technique used in computer vision and image processing for detecting the foreground from a set a images of the same scenario (video sequence of a non-moving camera) for various types of detection problems.
-\begin{equation}
-|frame_i - frame_{i-1}| > T_h 
-\label{diff_frame}
-\end{equation}
+
+\[
+pixel\_value= 
+\begin{cases}
+1,& |frame_i - frame_{i-1}| > T_h\\
+0,              & \text{otherwise}
+\end{cases}
+\]
+%\begin{equation}
+%|frame_i - frame_{i-1}| > T_h 
+%\label{diff_frame}
+%\end{equation}
 \end{block}
 \vspace{5cm}
 \begin{figure}[!htbp]
@@ -262,18 +271,40 @@ Background subtraction to:
 
 \begin{frame}[allowframebreaks]
 \frametitle{Support Vector Machines}
-Definition:\\
+\textbf{Definition:}\\
 Supervised machine learning technique that is based on a decision boundary to separate data into different subsets (classes). Support vectors are the coordinates of data point in the data space that are the closest to the boundary lines, hyperplanes.\\
 Support Vector Machines(SVM) can be used for \textbf{classification} and \textbf{regression} problems. The classification has been mostly used for the parking space detection.
 
 \begin{figure}[h!]
 	%should be after intrinsic calibration
 	\centering
-	\includegraphics[width=0.4\textwidth]{Pictures/SVM}
+	\includegraphics[width=0.3\textwidth]{Pictures/SVM}
 	\caption{Support Vector Machines, OpenCVDocs}
 \end{figure}
 
 Support Vector Machines (SVM) have been widely used for the problem. Usually associated with Histograms of Oriented Gradients (HoG), Difference of Gaussians (DoG), color histograms, Local Binary Patterns...
+
+SVMs to:
+
+\begin{itemize}
+	\item Detect available parking spaces using both multi-class Support Vector Machines (SVMs) and a Markov Random Field (MRF) framework using the color histograms as features \cite{wu} with an accuracy of 93.52\%,
+	\begin{figure}[h!]
+		%should be after intrinsic calibration
+		\centering
+		\includegraphics[width=0.4\textwidth]{Pictures/Wu}
+		\caption{Multi-class SVM, \cite{wu}}
+	\end{figure}
+	\item Classify individual spot using DoG- features with an accuracy of 92.33 after a comparative study with the k-NN, LDA and HoG, RGB, HSV YUV (color spaces) as features \cite{Tschentscher}\%
+	\item As similar to the previous point, classify individual spot using Local Binary Patterns and Local Phase Quantization as features with an accuracy of 99\% \cite{deAlmeida}.
+	
+		\begin{figure}[h!]
+		%should be after intrinsic calibration
+		\centering
+		\includegraphics[width=0.8\textwidth]{Pictures/parking}
+		\caption{Segmented image, \cite{deAlmeida}}
+	\end{figure}
+	
+\end{itemize}
 
 \end{frame}
 
