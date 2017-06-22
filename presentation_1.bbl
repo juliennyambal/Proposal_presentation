@@ -52,4 +52,20 @@ Y.~Lecun, L.~Bottou, Y.~Bengio, and P.~Haffner, ``Gradient-based learning
   applied to document recognition,'' in {\em Proceedings of the IEEE},
   pp.~2278--2324, 1998.
 
+\bibitem{NIPS2012_4824}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton, ``Imagenet classification with
+  deep convolutional neural networks,'' in {\em Advances in Neural Information
+  Processing Systems 25} (F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q.
+  Weinberger, eds.), pp.~1097--1105, Curran Associates, Inc., 2012.
+
+\bibitem{Amato2017327}
+G.~Amato, F.~Carrara, F.~Falchi, C.~Gennaro, C.~Meghini, and C.~Vairo, ``Deep
+  learning for decentralized parking lot occupancy detection,'' {\em Expert
+  Systems with Applications}, vol.~72, pp.~327 -- 334, 2017.
+
+\bibitem{7845408}
+S.~Valipour, M.~Siam, E.~Stroulia, and M.~Jagersand, ``Parking-stall vacancy
+  indicator system, based on deep convolutional neural networks,'' in {\em 2016
+  IEEE 3rd World Forum on Internet of Things (WF-IoT)}, pp.~655--660, Dec 2016.
+
 \end{thebibliography}

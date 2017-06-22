@@ -1,11 +1,16 @@
 \beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Description}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Motivation}{4}{0}{1}
-\beamer@subsectionintoc {1}{3}{Problems}{5}{0}{1}
-\beamer@subsectionintoc {1}{4}{Aims}{6}{0}{1}
-\beamer@sectionintoc {2}{Background and related work}{7}{0}{2}
-\beamer@subsectionintoc {2}{1}{Sensors Based Detection}{7}{0}{2}
-\beamer@subsectionintoc {2}{2}{Video Based Methods}{9}{0}{2}
-\beamer@sectionintoc {3}{What's next}{20}{0}{3}
-\beamer@sectionintoc {4}{References}{22}{0}{4}
+\beamer@subsectionintoc {1}{1}{Description}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Motivation}{5}{0}{1}
+\beamer@subsectionintoc {1}{3}{Problems}{6}{0}{1}
+\beamer@subsectionintoc {1}{4}{Aims}{7}{0}{1}
+\beamer@sectionintoc {2}{Background and related work}{9}{0}{2}
+\beamer@subsectionintoc {2}{1}{Sensors Based Detection}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Video Based Methods}{11}{0}{2}
+\beamer@sectionintoc {3}{Research Methodology}{25}{0}{3}
+\beamer@subsectionintoc {3}{1}{Research Hypothesis}{25}{0}{3}
+\beamer@subsectionintoc {3}{2}{Research Questions}{26}{0}{3}
+\beamer@subsectionintoc {3}{3}{Methodology}{27}{0}{3}
+\beamer@sectionintoc {4}{Research Plan}{36}{0}{4}
+\beamer@sectionintoc {5}{What's next}{37}{0}{5}
+\beamer@sectionintoc {6}{References}{39}{0}{6}
