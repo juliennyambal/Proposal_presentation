@@ -1,3 +1,4 @@
+\beamer@slide {fig:wits1}{1}
 \beamer@slide {nonintru}{9}
 \beamer@slide {intru}{9}
 \beamer@slide {foreground}{11}
@@ -5,3 +6,5 @@
 \beamer@slide {postigo}{11}
 \beamer@slide {fig:outputhoughl}{28}
 \beamer@slide {rcnn_example}{30}
+\beamer@slide {fig:clientserver}{37}
+\beamer@slide {timeplan}{39}

@@ -86,15 +86,26 @@
 
 \title[Autononous Parking Space Detection]{Autonomous Parking Space Detection} % The short title appears at the bottom of every slide, the full title is only on the title page
 
-\author{Julien Nyambal\\1439552} % Your name
+\author[Julien Nyambal 1439552]{Julien Nyambal\\1439552} % Your name
 \institute[WITS] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
 {
 School of Computer Science and Applied Mathematics\\ % Your institution for the title page
 University of the Witwatersrand, Johannesburg \\
 \medskip
 %\textit{john@smith.com} % Your email address
-Supervisor: Dr. Richard Klein
+Supervisor: Dr. Richard Klein \\
+\medskip
+\large Master's Proposal
+\vspace{0.3cm}
+
+\begin{figure}
+	\includegraphics[width=0.1\linewidth]{Pictures/wits1}
+	\label{fig:wits1}
+\end{figure}
+
+
 }
+
 
 
 
@@ -176,12 +187,13 @@ This project aims to:
 
 \end{frame}
 
-\begin{frame}
-\Huge Background and related work
-\end{frame}
 %------------------------------------------------
 \section{Background and related work}
 %------------------------------------------------
+
+\begin{frame}
+\Huge Background and related work
+\end{frame}
 
 \subsection{Sensors Based Detection}
 
@@ -356,12 +368,12 @@ CNNs to bring a solution to parking management:
 
 \end{frame}
 
+%----------------------------------------
+\section{Research Methodology}
+
 \begin{frame}
 \Huge Research Methodology
 \end{frame}
-
-%----------------------------------------
-\section{Research Methodology}
 
 \subsection{Research Hypothesis}
 
@@ -458,22 +470,66 @@ Have been broadly used previously. The hyper-parameters of the SVMs, C, $\gamma$
 \end{itemize}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[allowframebreaks]
 \frametitle{The Data: From A to Z} 
+\textbf{Data Collection}
 \begin{itemize}
-	\item Data Collection
-	\item Data Preparation
-	\item Data Labeling
-	\item Datasets
+	\item Mostly collected from the 4th, 3rd, Postgraduate Students parking next the Chamber of Mines , Wits
+	\item With a GoPro Hero 4 camera,
 \end{itemize}
-\end{frame}
+\textbf{Data Preparation}
+\begin{itemize}
+	\item GoPro camera = Distortion $\implies$ distortion removal mainly,
+	\item Reduction of the image size.
+\end{itemize}
+\textbf{Data Labeling}
+\begin{itemize}
+	\item \textbf{Detection}: Create ground-truth of all spots appearing in the collected pictures  in XML format,
+	The input is the original image and the output a tuple $t$ = $\lbrace image.jpg,image.xml\rbrace$
+	\item \textbf{Classification}: Generate patches of individual spots from all the pictures collected, regardless the state of the patch.
+\end{itemize}
+\framebreak
+\textbf{Datasets}
+\begin{itemize}
+	\item \textbf{Training}: Generate 2 folders corresponding to the states of interest: Vacant and Occupied.
+	\item \textbf{Testing}: PKLot dataset will be used, and some other scenarios of parking spaces different from the training ones.
+\end{itemize}
 
-\begin{frame}
-\frametitle{Training \& Testing} 
 \end{frame}
 
 \begin{frame}[allowframebreaks]
-\Huge Research Plan
+\frametitle{Training \& Testing} 
+
+\textbf{Detection}: 
+\begin{itemize}
+\item Caffe implementation of the Region-based CNN (RCNN) 
+\item Different solvers type (Stochastic Gradient Descent Adaptive Gradient, Nesterov’s Accelerated Gradient ...) and learning rate, learning rate policy for better choice of accuracy,
+\end{itemize}
+\textbf{CNN Classification}:
+\begin{itemize}
+	\item Caffe or hdf5 (Keras) model for classifying the crop image of the parking spot,
+	\item Feeding the CNN (no matter what model used) with the patches of parking lots collected from the dataset (vacant \& occupied folders).
+\end{itemize}
+\textbf{SVM Classification}: 
+\begin{itemize}
+	\item Using the winning feature extractors HOG, SURF, SIFT ...
+	\item Using grid search to determine the optimal hyper-parameters of the proposed SVM model generated,
+	\item Using $k$-fold cross-validation to efficiently train and test and avoid leaks of the training set to the testing set compared to using a static training-testing phase.
+\end{itemize} 
+
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+\frametitle{Client Interface For Locating Vacant Parking Spaces}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{../../Project_Proposal/Pictures/Client_Server}
+	\caption{Describes how the video frames containing the images the parking lot leave the camera to the computer that has the Automated Parking Space Detection system. After the images data have processed by the system, the result, which is a JSON file, is sent to the server. The server will then send the JSON file to the android phone when requested by the user.}
+	\label{fig:clientserver}
+\end{figure}
+
+
 \end{frame}
 
 
@@ -481,9 +537,40 @@ Have been broadly used previously. The hyper-parameters of the SVMs, C, $\gamma$
 \section{Research Plan}
 
 \begin{frame}
-\frametitle{Research Plan}
+\Huge Research Plan
 \end{frame}
 
+\begin{frame}
+\frametitle{Research Phases and Time Plan}
+
+\begin{table}[h!]
+	\centering
+	\begin{center}
+		\begin{tabular}{ | l | l | l |}
+			\hline
+			\textbf{Phase} & \textbf{Duration} & \textbf{\# of weeks} \\ \hline
+			Data collection & June 2017- August 2017 & 12 weeks \\ \hline
+			Data Preparation & August 2017- October 2017 & 12 weeks \\ \hline
+			Training \& Testing & October 2017- February 2018 & 16 weeks \\ \hline
+			Deployment & February 2018- April 2018 & 12 weeks \\ \hline
+			Analysis & March 2018- June 2018 & 16 weeks \\ \hline			
+			Write-up & July 2018- September 2018 & 12 weeks \\ \hline
+			
+		\end{tabular}
+	\end{center}
+	\caption{Research Phases and Time Plan}
+	\label{timeplan}
+\end{table}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Potential Issues and Risk Management}
+\begin{itemize}
+	\item \textbf{Data Collection Issues}:
+	\item \textbf{Delays on Defined Time Plan}:
+\end{itemize}
+\end{frame}
 %----------------------------------------
 \section{What's next}
 
