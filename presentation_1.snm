@@ -6,5 +6,8 @@
 \beamer@slide {postigo}{11}
 \beamer@slide {fig:outputhoughl}{28}
 \beamer@slide {rcnn_example}{30}
-\beamer@slide {fig:clientserver}{37}
-\beamer@slide {timeplan}{39}
+\beamer@slide {conmat}{37}
+\beamer@slide {fig:roc}{37}
+\beamer@slide {fig:precisionrecall}{37}
+\beamer@slide {fig:clientserver}{43}
+\beamer@slide {timeplan}{45}

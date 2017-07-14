@@ -76,6 +76,7 @@
 %\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
 }
 \usepackage{amsmath}
+\usepackage{multirow}
 \usepackage{caption}% http://ctan.org/pkg/caption
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
@@ -520,6 +521,59 @@ Have been broadly used previously. The hyper-parameters of the SVMs, C, $\gamma$
 \end{frame}
 
 \begin{frame}[allowframebreaks]
+\frametitle{How Will We Evaluate The Model?}
+
+\textbf{Confusion Matrix}: Table or matrix to visually evaluate the performance of a model. This research project is a supervised learning binary classification problem. The resulting confusion matrix will produce four outcomes:
+	\begin{itemize}
+		\item \textbf{T}rue \textbf{N}egatives (\textbf{TN}): Actual negative outcomes that are predicted negatives,
+		\item \textbf{T}rue \textbf{P}ositives (\textbf{TP}): Actual positive outcomes that are predicted positives,
+		\item \textbf{F}alse \textbf{N}egatives (\textbf{FN}): Actual positive outcomes that are predicted negatives,
+		\item \textbf{F}alse \textbf{P}ositives (\textbf{FP}): Actual negative outcomes that are predicted positives.
+	\end{itemize}
+	
+	\begin{table}[!h]
+		\centering
+		\begin{tabular}{cc|c|c|c}
+			\cline{3-4}
+			& & \multicolumn{2}{ c| }{Predicted Classes} \\ \cline{3-4}
+			& & Occupied & Vacant \\ \cline{1-4}
+			\multicolumn{1}{ |c  }{\multirow{2}{*}{Actual Classes} } &
+			\multicolumn{1}{ |c| }{Occupied} & \textbf{TN} & \textbf{FP} &     \\ \cline{2-4}
+			\multicolumn{1}{ |c  }{}                        &
+			\multicolumn{1}{ |c| }{Vacant} & \textbf{FN} & \textbf{TP} &     \\ \cline{1-4}
+		\end{tabular}
+		\caption*{Confusion Matrix: By convention, the true classes are on the left-hand side of the matrix and the predicted classes are on the top of the matrix.}
+		\label{conmat}
+	\end{table}
+
+\begin{itemize}
+	\item Accuracy = $\frac{\text{Total number of correct classication}}{\text{Total number of cases}}$ = $\frac{\textbf{TP + TN}}{\textbf{TP + TN + FN + FP}}$
+	\item Recall = $\frac{\text{Number of True Positives}}{\text{Total number of actual positives}}$ = $\frac{\textbf{TP}}{\textbf{TP + FN}}$
+	\item Precision= $\frac{\text{Number of True Positives}}{\text{Total number of predicted positives}}$ = $\frac{\textbf{TP}}{\textbf{TP + FP}}$
+	\item \textbf{Receiver Operating Characteristic curve (ROC) curve} = \textbf{TPR} vs \textbf{FPR} = $\frac{\textbf{TP}}{\textbf{TP + FN}}$ (y-axis) vs $\frac{\textbf{FP}}{\textbf{FP + TN}}$ (x-axis): In that graph, the goal is to obtain a curve growing towards the upper right corner, reducing the number of false negatives and false positives as illustrated in Figure \ref{fig:roc}.
+	
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.6\linewidth]{Pictures/ROC}
+		\caption{Three different cases of ROC curves, \citet{rocref}}
+		\label{fig:roc}
+	\end{figure}
+
+	\item \textbf{Precision Recall Curve} = \textbf{Precision} (y-axis) vs \textbf{Recall} (x-axis): : In that graph, the goal is to obtain a curve growing towards the upper right corner, reducing the number of false positives as illustrated in Figure \ref{fig:precisionrecall}.
+
+	
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\linewidth]{Pictures/Precision_recall}
+	\caption{Different cases of precision-recall curves, \citet{prref}}
+	\label{fig:precisionrecall}
+\end{figure}
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}[allowframebreaks]
 \frametitle{Client Interface For Locating Vacant Parking Spaces}
 
 \begin{figure}
@@ -567,8 +621,10 @@ Have been broadly used previously. The hyper-parameters of the SVMs, C, $\gamma$
 \begin{frame}
 \frametitle{Potential Issues and Risk Management}
 \begin{itemize}
-	\item \textbf{Data Collection Issues}:
-	\item \textbf{Delays on Defined Time Plan}:
+	\item \textbf{Data Collection Issues}:\\
+	The data will be collected by the researcher if there is no, or not usable footage available,
+	\item \textbf{Delays on Defined Time Plan}:\\
+	The design of the different components may take longer to produce, that will generate a delay on the delivery time,
 \end{itemize}
 \end{frame}
 %----------------------------------------
