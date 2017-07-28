@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.5)  14 JUL 2017 08:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.5)  28 JUL 2017 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,7 +949,7 @@ LaTeX Info: Redefining \includegraphics on input line 115.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(./presentation_1.nav) <Pictures/wits1.jpg, id=80, 762.85pt x 1457.445pt>
+(./presentation_1.nav) <Pictures/wits1.jpg, id=76, 762.85pt x 1457.445pt>
 File: Pictures/wits1.jpg Graphic file (type jpg)
 
 <use Pictures/wits1.jpg>
@@ -981,14 +981,14 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] [8
 
 ]
-<Pictures/overhead.jpg, id=334, 593.21625pt x 304.88907pt>
+<Pictures/overhead.jpg, id=328, 593.21625pt x 304.88907pt>
 File: Pictures/overhead.jpg Graphic file (type jpg)
 
 <use Pictures/overhead.jpg>
 Package pdftex.def Info: Pictures/overhead.jpg used on input line 219.
 (pdftex.def)             Requested size: 171.14764pt x 87.9643pt.
 
-<Pictures/sensor.JPG, id=337, 144.14291pt x 96.09528pt>
+<Pictures/sensor.JPG, id=331, 144.14291pt x 96.09528pt>
 File: Pictures/sensor.JPG Graphic file (type jpg)
 
 <use Pictures/sensor.JPG>
@@ -1015,19 +1015,19 @@ line 287.
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<Pictures/fg308.png, id=398, 1284.8pt x 722.7pt>
+<Pictures/fg308.png, id=392, 1284.8pt x 722.7pt>
 File: Pictures/fg308.png Graphic file (type png)
  <use Pictures/fg308.png>
 Package pdftex.def Info: Pictures/fg308.png used on input line 287.
 (pdftex.def)             Requested size: 164.30028pt x 92.41045pt.
 
-<Pictures/bg308.png, id=399, 1284.8pt x 722.7pt>
+<Pictures/bg308.png, id=393, 1284.8pt x 722.7pt>
 File: Pictures/bg308.png Graphic file (type png)
  <use Pictures/bg308.png>
 Package pdftex.def Info: Pictures/bg308.png used on input line 287.
 (pdftex.def)             Requested size: 164.30028pt x 92.41045pt.
 
-<Pictures/transmap.png, id=401, 1413.28pt x 452.69125pt>
+<Pictures/transmap.png, id=395, 1413.28pt x 452.69125pt>
 File: Pictures/transmap.png Graphic file (type png)
 
 <use Pictures/transmap.png>
@@ -1045,19 +1045,19 @@ Package pdftex.def Info: Pictures/transmap.png used on input line 287.
 
 
 ]
-<Pictures/SVM.png, id=524, 72.27pt x 71.3064pt>
+<Pictures/SVM.png, id=518, 72.27pt x 71.3064pt>
 File: Pictures/SVM.png Graphic file (type png)
  <use Pictures/SVM.png>
 Package pdftex.def Info: Pictures/SVM.png used on input line 324.
 (pdftex.def)             Requested size: 102.68962pt x 101.3254pt.
 
-<Pictures/Wu.png, id=526, 642.4pt x 421.575pt>
+<Pictures/Wu.png, id=520, 642.4pt x 421.575pt>
 File: Pictures/Wu.png Graphic file (type png)
  <use Pictures/Wu.png>
 Package pdftex.def Info: Pictures/Wu.png used on input line 324.
 (pdftex.def)             Requested size: 136.91603pt x 89.85207pt.
 
-<Pictures/parking.jpg, id=531, 361.35pt x 172.68053pt>
+<Pictures/parking.jpg, id=525, 361.35pt x 172.68053pt>
 File: Pictures/parking.jpg Graphic file (type jpg)
 
 <use Pictures/parking.jpg>
@@ -1075,7 +1075,7 @@ Package pdftex.def Info: Pictures/parking.jpg used on input line 324.
 
 
  <./Pictures/parking.jpg>]
-<Pictures/lenet_architecture.png, id=646, 803.0pt x 235.88126pt>
+<Pictures/lenet_architecture.png, id=640, 803.0pt x 235.88126pt>
 File: Pictures/lenet_architecture.png Graphic file (type png)
 
 <use Pictures/lenet_architecture.png>
@@ -1083,13 +1083,13 @@ Package pdftex.def Info: Pictures/lenet_architecture.png used on input line 370
 .
 (pdftex.def)             Requested size: 308.06367pt x 90.49602pt.
 
-<Pictures/deep.jpg, id=649, 251.3461pt x 96.57318pt>
+<Pictures/deep.jpg, id=643, 251.3461pt x 96.57318pt>
 File: Pictures/deep.jpg Graphic file (type jpg)
  <use Pictures/deep.jpg>
 Package pdftex.def Info: Pictures/deep.jpg used on input line 370.
 (pdftex.def)             Requested size: 308.06367pt x 118.3658pt.
 
-<Pictures/stall.png, id=654, 471.7625pt x 244.915pt>
+<Pictures/stall.png, id=648, 471.7625pt x 244.915pt>
 File: Pictures/stall.png Graphic file (type png)
  <use Pictures/stall.png>
 Package pdftex.def Info: Pictures/stall.png used on input line 370.
@@ -1119,7 +1119,7 @@ Package pdftex.def Info: Pictures/stall.png used on input line 370.
 ] [27
 
 ]
-<Pictures/output_houghl.jpg, id=900, 745.78625pt x 303.1325pt>
+<Pictures/output_houghl.jpg, id=894, 745.78625pt x 303.1325pt>
 File: Pictures/output_houghl.jpg Graphic file (type jpg)
 
 <use Pictures/output_houghl.jpg>
@@ -1130,7 +1130,7 @@ Package pdftex.def Info: Pictures/output_houghl.jpg used on input line 428.
  <./Pictures/output_houghl.jpg>] [29
 
 ]
-<Pictures/3.jpg, id=955, 1132.23pt x 635.37375pt>
+<Pictures/3.jpg, id=949, 1132.23pt x 635.37375pt>
 File: Pictures/3.jpg Graphic file (type jpg)
  <use Pictures/3.jpg>
 Package pdftex.def Info: Pictures/3.jpg used on input line 451.
@@ -1147,77 +1147,33 @@ Overfull \vbox (13.51869pt too high) detected at line 451
 
 ] [33
 
-] [34
-
 
 ]
 Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no ™ in font cmss10!
- [35
+ [34
 
-] [36
+] [35
 
 
 ]
-<Pictures/ROC.jpg, id=1142, 68.1747pt x 67.9338pt>
+<Pictures/ROC.jpg, id=1110, 68.1747pt x 67.9338pt>
 File: Pictures/ROC.jpg Graphic file (type jpg)
  <use Pictures/ROC.jpg>
-Package pdftex.def Info: Pictures/ROC.jpg used on input line 574.
+Package pdftex.def Info: Pictures/ROC.jpg used on input line 558.
 (pdftex.def)             Requested size: 192.23909pt x 191.5671pt.
 
-! Undefined control sequence.
-<argument> ...fferent cases of ROC curves, \citet 
-                                                  {rocref}
-l.574 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...fferent cases of ROC curves, \citet 
-                                                  {rocref}
-l.574 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<Pictures/Precision_recall.png, id=1144, 292.09125pt x 289.08pt>
+<Pictures/Precision_recall.png, id=1114, 292.09125pt x 289.08pt>
 File: Pictures/Precision_recall.png Graphic file (type png)
 
 <use Pictures/Precision_recall.png>
-Package pdftex.def Info: Pictures/Precision_recall.png used on input line 574.
+Package pdftex.def Info: Pictures/Precision_recall.png used on input line 558.
 (pdftex.def)             Requested size: 160.19762pt x 158.54897pt.
+ [36
 
-! Undefined control sequence.
-<argument> ... of precision-recall curves, \citet 
-                                                  {prref}
-l.574 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+] [37
 
-! Undefined control sequence.
-<argument> ... of precision-recall curves, \citet 
-                                                  {prref}
-l.574 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[37
 
 ] [38
 
@@ -1225,35 +1181,20 @@ and I'll forget about whatever was undefined.
 ] [39
 
 
-] [40
+ <./Pictures/ROC.jpg>]
+[40
 
 
- <./Pictures/ROC.jpg>] [41
+] [41
 
 
-] [42
+ <./Pictures/Precision_recall.png>] [42
 
+] [43
 
- <./Pictures/Precision_recall.png>]
-<../../Project_Proposal/Pictures/Client_Server.jpg, id=1308, 769.37437pt x 407.
-27156pt>
-File: ../../Project_Proposal/Pictures/Client_Server.jpg Graphic file (type jpg)
-
- <use ../../Project_Proposal/Pictures/Client_Server.jpg>
-Package pdftex.def Info: ../../Project_Proposal/Pictures/Client_Server.jpg used
- on input line 587.
-(pdftex.def)             Requested size: 239.60567pt x 126.83702pt.
- [43
-
- <../../Project_Proposal/Pictures/Client_Server.jpg>] [44
+] [44
 
 ] [45
-
-] [46
-
-] [47
-
-] [48
 
 ]
 (./presentation_1.bbl
@@ -1273,13 +1214,16 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 Missing character: There is no â in font cmss9!
 Missing character: There is no € in font cmss9!
 Missing character: There is no “ in font cmss9!
-) [49
+) [46
 
- </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>] [5
-0
+ </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>] [4
+7
 
 
-] [51
+] [48
+
+
+] [49
 
 
 ]
@@ -1292,13 +1236,13 @@ Missing character: There is no “ in font cmss9!
 \tf@snm=\write8
 \openout8 = `presentation_1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 664.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 664.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 617.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 617.
  (./presentation_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 664.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 664.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 617.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 617.
 Package rerunfilecheck Info: File `presentation_1.out' has not changed.
-(rerunfilecheck)             Checksum: 6F96F95A046A3E7BE77664510D57264A;877.
+(rerunfilecheck)             Checksum: 4A8FFD1F33F379E1F0F549ABD7D2E1DD;830.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1307,41 +1251,35 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 664.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 617.
  ) 
 Here is how much of TeX's memory you used:
- 18419 strings out of 493029
- 352660 string characters out of 6136235
- 419913 words of memory out of 5000000
- 21355 multiletter control sequences out of 15000+600000
+ 18400 strings out of 493029
+ 352285 string characters out of 6136235
+ 419604 words of memory out of 5000000
+ 21343 multiletter control sequences out of 15000+600000
  16001 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,62p,470b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Navigation52} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
-i9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on presentation_1.pdf (51 pages, 3380064 bytes).
+ 56i,16n,62p,405b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on presentation_1.pdf (49 pages, 3332876 bytes).
 PDF statistics:
- 1646 PDF objects out of 1728 (max. 8388607)
- 1512 compressed objects within 16 object streams
- 145 named destinations out of 1000 (max. 500000)
- 290 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1593 PDF objects out of 1728 (max. 8388607)
+ 1461 compressed objects within 15 object streams
+ 140 named destinations out of 1000 (max. 500000)
+ 277 words of extra memory for PDF output out of 10000 (max. 10000000)
 

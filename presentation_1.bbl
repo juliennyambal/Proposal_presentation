@@ -68,4 +68,16 @@ S.~Valipour, M.~Siam, E.~Stroulia, and M.~Jagersand, ``Parking-stall vacancy
   indicator system, based on deep convolutional neural networks,'' in {\em 2016
   IEEE 3rd World Forum on Internet of Things (WF-IoT)}, pp.~655--660, Dec 2016.
 
+\bibitem{rocref}
+Columbia, ``Evaluating risk prediction with roc curves.''
+  \url{https://www.mailman.columbia.edu/research/population-health-methods/evaluating-risk-prediction-roc-curves},
+  July 2017.
+\newblock (Accessed on 07/14/2017).
+
+\bibitem{prref}
+Microsoft, ``Using roc plots and the auc measure in azure ml.''
+  \url{https://blogs.msdn.microsoft.com/andreasderuiter/2015/02/09/using-roc-plots-and-the-auc-measure-in-azure-ml/},
+  July 2017.
+\newblock (Accessed on 07/14/2017).
+
 \end{thebibliography}
