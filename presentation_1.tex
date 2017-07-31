@@ -75,6 +75,9 @@
 
 %\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
 }
+\setbeamertemplate{navigation symbols}{} % don't use navigation tools
+\usepackage[absolute,overlay]{textpos} %needed for textblock
+\usepackage{hyperref}
 \usepackage{amsmath}
 \usepackage{multirow}
 \usepackage{caption}% http://ctan.org/pkg/caption
@@ -259,15 +262,18 @@ pixel\_value=
 \vspace{5cm}
 \begin{figure}[!htbp]
 	\begin{minipage}[b]{0.48\textwidth}
-		\includegraphics[width=\textwidth]{Pictures/fg308}
-		\caption{Original image}
-		\label{foreground}
+		% Next command is the minimum needed. Everything else is just to keep it in the correct position.
+		\href{run:Videos/original.mp4?autostart}{\includegraphics[width=\textwidth,keepaspectratio]{Pictures/frame255.jpg}}
+		\caption{Original \vspace{4mm}}
+		\label{foreground} 
 	\end{minipage}
 	\hfill
 	\begin{minipage}[b]{0.48\textwidth}
-		\includegraphics[width=\textwidth]{Pictures/bg308}
-		\caption{Background subtracted image}
-		\label{background}
+		% Next command is the minimum needed. Everything else is just to keep it in the correct position.
+		\href{run:Videos/bg.mp4?autostart}{\includegraphics[width=\textwidth,keepaspectratio]{Pictures/framebg255.jpg}}
+
+		\caption{Background subtracted video using   Mixture of Gaussians (MoG)}
+		\label{bgsub}
 	\end{minipage}
 \end{figure}
 \vspace{5cm}
@@ -302,15 +308,15 @@ Support Vector Machines(SVM) can be used for \textbf{classification} and \textbf
 Support Vector Machines (SVM) have been widely used for the problem. Usually associated with Histograms of Oriented Gradients (HoG), Difference of Gaussians (DoG), color histograms, Local Binary Patterns...
 
 \begin{itemize}
-	\item To detect available parking spaces using both multi-class Support Vector Machines (SVMs) and a Markov Random Field (MRF) framework using the color histograms as features \cite{wu} with an accuracy of 93.52\%,
+	\item To detect available parking spaces using both multi-class \textbf{Support Vector Machines} (SVMs) and a Markov Random Field (MRF) framework using the \textbf{color histograms} as features \cite{wu} with an accuracy of 93.52\%,
 	\begin{figure}[h!]
 		%should be after intrinsic calibration
 		\centering
 		\includegraphics[width=0.4\textwidth]{Pictures/Wu}
 		\caption{Multi-class SVM, \cite{wu}}
 	\end{figure}
-	\item To classify individual spot using DoG- features with an accuracy of 92.33\% after a comparative study with the k-NN, LDA and HoG, RGB, HSV YUV (color spaces) as features \cite{Tschentscher}\%
-	\item As similar to the previous point,to classify individual spot using Local Binary Patterns and Local Phase Quantization as features with an accuracy of 99\% \cite{deAlmeida}.
+	\item To classify individual spot using \textbf{DoG}-features with an accuracy of 92.33\% after a comparative study with the k-NN, LDA and \textbf{HoG, RGB, HSV, YUV} (color spaces) as features \cite{Tschentscher}
+	\item As similar to the previous point,to classify individual spot using \textbf{Local Binary Patterns and Local Phase Quantization} as features with an accuracy of 89\% \cite{deAlmeida}.
 	
 		\begin{figure}[h!]
 		%should be after intrinsic calibration
@@ -363,7 +369,16 @@ CNNs to bring a solution to parking management:
 		\includegraphics[width=0.8\textwidth]{Pictures/stall}
 		\caption{Online classification, \cite{7845408}}
 	\end{figure} 
-	\item The classification happens in individual customized cameras that contain Raspberry Pi's. Each camera runs a reduced version of AlexNet CNN \cite{Amato2017327}. 
+	
+	\begin{figure}[h!]
+		%should be after intrinsic calibration
+		\centering
+		\includegraphics[width=0.6\textwidth]{Pictures/roc-auc}
+		\caption{Multi-class SVM, \cite{7845408}}
+	\end{figure}
+
+\item The classification happens in individual customized cameras that contain Raspberry Pi's. Each camera runs a reduced version of AlexNet CNN which produced 9\% as their highest accuracy. \cite{Amato2017327}.
+	 
 \end{itemize}
 
 
@@ -400,21 +415,6 @@ CNNs to bring a solution to parking management:
 \end{frame}
 
 \subsection{Methodology}
-
-\begin{frame}
-\frametitle{Background Subtraction}
-\textbf{Method 1:} 
-\begin{itemize}
-	\item To automatically create a mapping of all the parking spaces given a parking lot as illustrated in Section \ref{postigo} when using the transience map \cite{Postigo},
-	\item From the map, feed the cropped spot to either the CNNs or SVMs.
-\end{itemize}
-
-\textbf{Method 2:}
-\begin{itemize}
-	\item To use GrabCut on one image of the parking space to crop the background from the foreground, create a map (ground-truth) out of GrabCut
-	\item And classify the results using CNNs or SVMs. 
-\end{itemize}  
-\end{frame}
 
 \begin{frame}
 \frametitle{Hough Transform}

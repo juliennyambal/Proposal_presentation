@@ -11,5 +11,5 @@
 \beamer@subsectionintoc {3}{1}{Research Hypothesis}{25}{0}{3}
 \beamer@subsectionintoc {3}{2}{Research Questions}{26}{0}{3}
 \beamer@subsectionintoc {3}{3}{Methodology}{27}{0}{3}
-\beamer@sectionintoc {4}{Research Plan}{42}{0}{4}
-\beamer@sectionintoc {5}{References}{46}{0}{5}
+\beamer@sectionintoc {4}{Research Plan}{41}{0}{4}
+\beamer@sectionintoc {5}{References}{45}{0}{5}
