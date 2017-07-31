@@ -374,7 +374,7 @@ CNNs to bring a solution to parking management:
 		%should be after intrinsic calibration
 		\centering
 		\includegraphics[width=0.6\textwidth]{Pictures/roc-auc}
-		\caption{Multi-class SVM, \cite{7845408}}
+		\caption{ROC results, \cite{7845408}}
 	\end{figure}
 
 \item The classification happens in individual customized cameras that contain Raspberry Pi's. Each camera runs a reduced version of AlexNet CNN which produced 9\% as their highest accuracy. \cite{Amato2017327}.
@@ -478,6 +478,14 @@ Have been broadly used previously. The hyper-parameters of the SVMs, C, $\gamma$
 \textbf{Datasets}
 \begin{itemize}
 	\item \textbf{Training}: Generate 2 folders corresponding to the states of interest: Vacant and Occupied.
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.8\linewidth]{Pictures/dataset}
+		\caption{Definition of dataset}
+		\label{rcnn_example}
+	\end{figure}
+	
 	\item \textbf{Testing}: PKLot dataset will be used, and some other scenarios of parking spaces different from the training ones.
 \end{itemize}
 
@@ -493,7 +501,7 @@ Have been broadly used previously. The hyper-parameters of the SVMs, C, $\gamma$
 \end{itemize}
 \textbf{CNN Classification}:
 \begin{itemize}
-	\item Caffe or hdf5 (Keras) model for classifying the crop image of the parking spot,
+	\item Caffe or hdf5 (Keras) model for classifying the cropped image of the parking spot,
 	\item Feeding the CNN (no matter what model used) with the patches of parking lots collected from the dataset (vacant \& occupied folders).
 \end{itemize}
 \textbf{SVM Classification}: 
